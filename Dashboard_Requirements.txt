@@ -1,0 +1,59 @@
+
+Page :Quick Info
+=================
+
+Logo, Bank-Name & Overall Loans(unfiltered*)
+
+Number of Customers
+Number of Customers with at least one Loan
+Amount from Fully-Paid loans
+Number of Loans
+Number of Loans Fully-Paid
+Number of Loans Charged-Off
+Number of Loans Current
+Average loan amount
+Page Navigator (that shows all page links); A button on each page to go back to 'Quick Info'
+
+Page :Loans by Status
+=================
+
+Logo & Bank-Name
+A pie: No. of Loans by Loan-Status Description
+A bar: No. of Loans by Loan-Status Description
+A Funnel: No. of Loans by Loan-Status Description
+
+
+Page :Loans by Different Factors
+================================
+Number of Customers with loans (and %) by Gender (Donut)
+
+Total number of loans
+
+	by Area
+	by Purpose
+	by Home Ownership
+Number of Loans by Loan Purpose Information (Treemap & Bar)
+
+
+Page :Loan amount by year & No. of Loans
+========================================
+
+       Installment Range
+	Loan amount by year & No. of loans by year
+	Selection by Grade and Sub-grade
+ 	👉Apply all Slicers & Clear all Slicers
+	Bookmarks	
+	a. All A-Grade loans
+	b. A to C Grade loans
+	c. Sub-Grade 1 in all Grades
+
+Page : Fully-Paid Loans
+========================================
+	Fully-Paid by Status (verified & non-verified)
+	Fully-Paid by state
+	No. of Loans Vs Fully-Paid by year and (drill-down) month
+        Fully Paid loans 
+		by Area
+		by Purpose
+		by Home Ownership
+

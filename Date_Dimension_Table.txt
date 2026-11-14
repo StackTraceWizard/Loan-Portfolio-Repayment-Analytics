@@ -1,0 +1,23 @@
+
+DateDimension = 
+ADDCOLUMNS (
+    CALENDAR (DATE(YEAR(MIN(Loans[Issue_Date])),1,1), DATE(YEAR(MAX(Loans[Issue_Date])),12,31)),    
+     "Full Year",YEAR([Date]),
+    "Short Year",VALUE(FORMAT([Date],"YY")),
+    "Quarter Num", QUARTER([Date]),
+    "Q Num" , "Q" & QUARTER([Date]),
+    "Qtr Num" , "Qtr" & QUARTER([Date]),
+    "QuarterFull Num" , "Quarter" & QUARTER([Date]),
+    "Month Num" , MONTH([Date]),
+    "Full Month", FORMAT([Date],"MMMM"),
+     "Short Month", FORMAT([Date],"MMM"),
+     "Week_num", WEEKNUM([Date]),
+     "Weekday Num", WEEKDAY([Date]),
+     "Full Weekday Name", FORMAT([Date],"DDDD"),
+     "Short Weekday Name", FORMAT([Date],"DDD"),
+     "Day Num", day([Date]),
+     "DateAsYYYYMMDD", FORMAT([Date],"YYYYMMDD"),
+     "DateAs YY MMM DD", FORMAT([Date],"YY MMM DD"),
+     "YYYY/Q", YEAR([Date]) & "/Q" & QUARTER([Date]),
+     "Year and Qtr (Number)", value( YEAR([Date]) & QUARTER([Date]))
+   )
